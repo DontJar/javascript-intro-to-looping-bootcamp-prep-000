@@ -1,2 +1,2 @@
-function Hi (Console.log ("Hello Wolrd"));
+for (let i = 0; i < 25; i++)
 
