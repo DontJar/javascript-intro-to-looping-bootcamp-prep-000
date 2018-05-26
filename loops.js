@@ -1,1 +1,2 @@
-Console.log ("Hello Wolrd");
+function Hi (Console.log ("Hello Wolrd"));
+
