@@ -14,7 +14,7 @@ return array
 function whileLoop (n) {
   while (whileLoop > 0) {
     console.log(--whileLoop)
-  } if (whileLoop === 0) {
+  } else {
     return "done"
   }
   }
