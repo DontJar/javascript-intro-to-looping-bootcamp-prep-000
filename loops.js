@@ -20,10 +20,11 @@ function whileLoop (n) {
 
 function doWhileLoop (array) {
   function maybeTrue() {
-    return Math.random() >= 0.5;
+    return Math.random() >= 0.5
   }
+  
   do {
-    array = array.shift(1);
+    array = array.slice();
   } while (array.length > 0 && maybeTrue())
   return array
 }
